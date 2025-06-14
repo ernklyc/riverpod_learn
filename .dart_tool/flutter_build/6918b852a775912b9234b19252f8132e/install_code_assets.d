@@ -1,0 +1,1 @@
+ C:\\my_project\\riverpod_learn\\.dart_tool\\flutter_build\\6918b852a775912b9234b19252f8132e\\native_assets.json: 
