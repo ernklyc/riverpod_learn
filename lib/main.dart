@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
-import 'package:riverpod_learn/screen/state_notifier_provider.dart';
+import 'package:riverpod_learn/screen/future_provider_page.dart';
 
 void main() {
   runApp(
@@ -21,7 +21,7 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
       ),
-      home: StateNotifierProviderPage(),
+      home: FutureProviderPage(),
     );
   }
 }

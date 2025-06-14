@@ -1,0 +1,10 @@
+^C:\MY_PROJECT\RIVERPOD_LEARN\BUILD\WINDOWS\X64\CMAKEFILES\A1F4B4B1F06FD5CB25982BC812660FF2\INSTALL_FORCE.RULE
+setlocal
+cd .
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
