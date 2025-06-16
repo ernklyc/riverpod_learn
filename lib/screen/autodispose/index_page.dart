@@ -27,6 +27,12 @@ class IndexPage extends ConsumerWidget {
                 },
                 child: const Text('Team Search Page'),
               ),
+              ElevatedButton(
+                onPressed: () {
+                  context.push('/web_socket');
+                },
+                child: const Text('WebSocket Page'),
+              ),
             Switch(
               value: themeChange,
               onChanged:

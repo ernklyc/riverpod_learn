@@ -18,6 +18,10 @@ collection
 3.4
 file:///C:/Users/ernkl/AppData/Local/Pub/Cache/hosted/pub.dev/collection-1.19.1/
 file:///C:/Users/ernkl/AppData/Local/Pub/Cache/hosted/pub.dev/collection-1.19.1/lib/
+crypto
+3.4
+file:///C:/Users/ernkl/AppData/Local/Pub/Cache/hosted/pub.dev/crypto-3.0.6/
+file:///C:/Users/ernkl/AppData/Local/Pub/Cache/hosted/pub.dev/crypto-3.0.6/lib/
 cupertino_icons
 3.1
 file:///C:/Users/ernkl/AppData/Local/Pub/Cache/hosted/pub.dev/cupertino_icons-1.0.8/
@@ -134,6 +138,14 @@ web
 3.4
 file:///C:/Users/ernkl/AppData/Local/Pub/Cache/hosted/pub.dev/web-1.1.1/
 file:///C:/Users/ernkl/AppData/Local/Pub/Cache/hosted/pub.dev/web-1.1.1/lib/
+web_socket
+3.4
+file:///C:/Users/ernkl/AppData/Local/Pub/Cache/hosted/pub.dev/web_socket-1.0.1/
+file:///C:/Users/ernkl/AppData/Local/Pub/Cache/hosted/pub.dev/web_socket-1.0.1/lib/
+web_socket_channel
+3.3
+file:///C:/Users/ernkl/AppData/Local/Pub/Cache/hosted/pub.dev/web_socket_channel-3.0.3/
+file:///C:/Users/ernkl/AppData/Local/Pub/Cache/hosted/pub.dev/web_socket_channel-3.0.3/lib/
 riverpod_learn
 3.7
 file:///C:/my_project/riverpod_learn/
