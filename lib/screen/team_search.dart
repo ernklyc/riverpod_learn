@@ -26,9 +26,17 @@ class TeamSearch extends ConsumerWidget {
               itemCount: teamStateList.length,
               itemBuilder: (context, index) {
                 final player = teamStateList[index];
-                return ListTile(
-                  title: Text(player['name']!.toString()),
-                  subtitle: Text(player['position']!.toString()),
+                return Card(
+                  child: Padding(
+                    padding: const EdgeInsets.symmetric(horizontal: 16.0),
+                    child: ListTile(
+                      leading: CircleAvatar(
+                        backgroundImage: NetworkImage(player.avatar),
+                      ),
+                      title: Text(player.name),
+                      subtitle: Text(player.position),
+                    ),
+                  ),
                 );
               },
             ),
@@ -38,3 +46,19 @@ class TeamSearch extends ConsumerWidget {
     );
   }
 }
+
+// Map ile yapılan kod
+/*
+Expanded(
+            child: ListView.builder(
+              itemCount: teamStateList.length,
+              itemBuilder: (context, index) {
+                final player = teamStateList[index];
+                return ListTile(
+                  title: Text(player['name']!.toString()),
+                  subtitle: Text(player['position']!.toString()),
+                );
+              },
+            ),
+          ),
+*/
